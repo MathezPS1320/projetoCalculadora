@@ -29,7 +29,7 @@ namespace Calculadora
             Console.WriteLine("Informe a sua matricula: ");
             this.matricula = int.Parse(Console.ReadLine());
 
-            Console.WriteLine("Informe o seu salário: ");
+            Console.WriteLine("Informe o seu salário estabelecido no contrato: ");
             double? salarioPJ = double.Parse(Console.ReadLine());
 
             calcularRegimeHorista(salarioPJ);
