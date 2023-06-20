@@ -23,8 +23,6 @@ namespace Calculadora
 
          public  void solicitarRegimeDeContratacao()
         {
-            
-
             Console.WriteLine("Informe o seu nome completo: ");
             this.nomeCompleto = Console.ReadLine();
 
